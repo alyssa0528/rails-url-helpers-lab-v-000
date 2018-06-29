@@ -3,6 +3,6 @@ class Student < ActiveRecord::Base
     self.first_name + " " + self.last_name
   end
 
-  def student_path(@student)
+  def students_path(@student)
   end
 end
