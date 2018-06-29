@@ -5,4 +5,7 @@ class Student < ActiveRecord::Base
 
   def students_path
   end
+
+  def student_path(@student)
+  end 
 end
